@@ -23,24 +23,12 @@ With you not; sir,
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
 - 🧩 Character-level tokenization
 - 🔗 Transformer-based architecture with self-attention
 - 📦 Uses Hugging Face's `datasets` to load Tiny Shakespeare
 - 📈 Evaluation using loss and perplexity metrics
-
----
-
-## 📂 Project Structure
-
-```
-.
-├── transformer_shakespeare.py       # Main model + training script
-├── Tiny_shakespeare_train.txt       # Processed training data
-├── Tiny_shakespeare_validation.txt  # Processed validation data
-├── README.md                        # This file
-```
 
 ---
 
@@ -50,7 +38,6 @@ With you not; sir,
 - **Transformer Blocks**: 4 layers, 4 attention heads each
 - **Feedforward Layers**: ReLU activated linear layers
 - **Loss Function**: Cross-Entropy
-- **Generation**: Greedy + Sampling
 
 ---
 
@@ -68,7 +55,9 @@ cd tiny-shakespeare-transformer
 ### 2. Create Environment & Install Dependencies
 
 ```bash
-pip install torch datasets
+pip install torch 
+pip install datasets
+
 ```
 
 ---
@@ -87,16 +76,6 @@ During training, it will periodically output:
 step 0: train loss 3.9562, val loss 3.8764
 step 100: train loss 2.7514, val loss 2.8213
 ...
-```
-
-### ✍️ Generate Shakespearean Text
-
-After training, the script will generate 2000 characters of new text based on the trained model:
-
-```txt
-ROMEO:
-O, speak again, bright angel! for thou art
-As glorious to this night...
 ```
 
 ---
