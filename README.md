@@ -4,7 +4,7 @@ A character-level Transformer-based language model implemented in PyTorch, train
 
 ---
 
-## 🚀 Demo Output
+##  Demo Output
 
 ```txt
 HERMIONE:
@@ -25,14 +25,14 @@ With you not; sir,
 
 ##  Key Features
 
-- 🧩 Character-level tokenization
-- 🔗 Transformer-based architecture with self-attention
-- 📦 Uses Hugging Face's `datasets` to load Tiny Shakespeare
-- 📈 Evaluation using loss and perplexity metrics
+-  Character-level tokenization
+-  Transformer-based architecture with self-attention
+-  Uses Hugging Face's `datasets` to load Tiny Shakespeare
+-  Evaluation using loss and perplexity metrics
 
 ---
 
-## 🧪 Model Architecture
+##  Model Architecture
 
 - **Embedding Layer**: Token + Positional embeddings
 - **Transformer Blocks**: 4 layers, 4 attention heads each
@@ -43,14 +43,8 @@ With you not; sir,
 
 ## 🛠️ Installation & Setup
 
-> 📌 Requires Python 3.8+ and PyTorch 1.12+
+>  Requires Python 3.8+ and PyTorch 1.12+
 
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/Rohithiwal/GPT-from-scratch.git
-cd tiny-shakespeare-transformer
-```
 
 ### 2. Create Environment & Install Dependencies
 
@@ -62,13 +56,7 @@ pip install datasets
 
 ---
 
-## 📚 Usage
-
-### 🏃‍♂️ Train the Model
-
-```bash
-python transformer_shakespeare.py
-```
+##  Usage
 
 During training, it will periodically output:
 
