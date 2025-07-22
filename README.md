@@ -48,7 +48,7 @@ With you not; sir,
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/tiny-shakespeare-transformer.git
+git clone https://github.com/Rohithiwal/GPT-from-scratch.git
 cd tiny-shakespeare-transformer
 ```
 
